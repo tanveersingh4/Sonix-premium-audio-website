@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SONIX — Hear Everything Differently</title>
+  <meta name="description" content="Premium audiophile headphones engineered for those who refuse to settle. Pure sound, uncompromised design." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ═══ NAV ═══════════════════════════════════════════════════════ -->
+<nav class="site-nav" id="site-nav" aria-label="Main navigation">
+  <a href="#" class="nav-brand" id="nav-logo" aria-label="Sonix home">
+    <span class="nav-wordmark">SONIX</span>
+  </a>
+
+
+  <ul class="nav-links" role="list">
+    <li><a href="#headphones" id="nav-headphones">Headphones</a></li>
+    <li><a href="#earbuds"    id="nav-earbuds">Earbuds</a></li>
+    <li><a href="#tech"       id="nav-tech">Technology</a></li>
+    <li><a href="#about"      id="nav-about">About</a></li>
+  </ul>
+
+  <a href="#shop" class="btn-island" id="nav-shop">
+    Shop Now
+    <span class="icon-wrap" aria-hidden="true">
+      <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M2 7h10M8 3l4 4-4 4"/>
+      </svg>
+    </span>
+  </a>
+</nav>
+
+<!-- ═══ HERO ═══════════════════════════════════════════════════════ -->
+<section class="hero" id="hero" aria-label="Hero">
+
+  <div class="hero-video-wrap" aria-hidden="true">
+    <video id="hero-video" autoplay muted loop playsinline preload="auto">
+      <source src="assets/Headphones_commercial_animation_1080p_20260925132918.mp4" type="video/mp4" />
+    </video>
+  </div>
+  <div class="hero-overlay"   aria-hidden="true"></div>
+  <div class="hero-grain"     aria-hidden="true"></div>
+  <div class="hero-spotlight" id="hero-spotlight" aria-hidden="true"></div>
+
+  <div class="hero-body">
+    <div class="hero-eyebrow">
+      <span class="hero-eyebrow-bar" aria-hidden="true"></span>
+      <span class="hero-eyebrow-txt">Audiophile Collection 2026</span>
+    </div>
+    <h1 class="hero-h1" id="hero-title">
+      <span class="h1-line"><span class="h1-inner">Hear What</span></span>
+      <span class="h1-line"><span class="h1-inner">Others <em>Miss.</em></span></span>
+      <span class="h1-line"><span class="h1-inner">Feel Every Note.</span></span>
+    </h1>
+    <p class="hero-sub">
+      Pure acoustic engineering meets obsessive design. Every note, every breath, every silence. Exactly as it was recorded.
+    </p>
+    <div class="hero-actions">
+      <a href="#shop" class="btn-island" id="btn-hero-shop">
+        Discover Collection
+        <span class="icon-wrap" aria-hidden="true">
+          <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2 7h10M8 3l4 4-4 4"/>
+          </svg>
+        </span>
+      </a>
+      <a href="#tech" class="btn-ghost" id="btn-hero-tech">Our Technology</a>
+    </div>
+  </div>
+
+  <div class="hero-stats" aria-label="Key specs">
+    <div class="stat-item">
+      <div class="stat-num">40<sup>hr</sup></div>
+      <div class="stat-lbl">Battery life</div>
+    </div>
+    <div class="stat-sep" aria-hidden="true"></div>
+    <div class="stat-item">
+      <div class="stat-num">0.3<sup>ms</sup></div>
+      <div class="stat-lbl">Latency</div>
+    </div>
+    <div class="stat-sep" aria-hidden="true"></div>
+    <div class="stat-item">
+      <div class="stat-num">50<sup>mm</sup></div>
+      <div class="stat-lbl">Driver size</div>
+    </div>
+  </div>
+
+  <div class="hero-viz" id="hero-viz" aria-hidden="true"></div>
+
+  <div class="hero-scroll-line" aria-hidden="true">
+    <div class="scroll-bar"></div>
+  </div>
+</section>
+
+<!-- ═══ SECTION 1 — PHILOSOPHY ════════════════════════════════════ -->
+<section class="s-philosophy" id="about">
+
+  <div class="phil-left reveal">
+    <div class="eyebrow-pill">
+      <span class="dot"></span>
+      Our Philosophy
+    </div>
+    <h2>Sound is not <em>heard.</em><br>It is felt.</h2>
+    <p>We obsess over every millimeter of driver geometry, every gram of diaphragm mass, every contour of the ear cup. Not because it is easy, but because you deserve to hear the truth.</p>
+    
+    <div class="phil-specs-row">
+      <div class="phil-spec-badge">
+        <span class="spec-val">0.02%</span>
+        <span class="spec-key">Ultra-low THD+N</span>
+      </div>
+      <div class="phil-spec-sep"></div>
+      <div class="phil-spec-badge">
+        <span class="spec-val">5Hz - 48kHz</span>
+        <span class="spec-key">Frequency Range</span>
+      </div>
+      <div class="phil-spec-sep"></div>
+      <div class="phil-spec-badge">
+        <span class="spec-val">Aerospace</span>
+        <span class="spec-key">CNC Aluminum</span>
+      </div>
+    </div>
+
+    <a href="#products" class="btn-island" id="btn-phil-explore">
+      Explore Craft
+      <span class="icon-wrap" aria-hidden="true">
+        <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M2 7h10M8 3l4 4-4 4"/>
+        </svg>
+      </span>
+    </a>
+  </div>
+
+  <div class="phil-cards">
+    <div class="dbl-bezel reveal reveal-d1">
+      <div class="dbl-bezel-inner">
+        <div class="card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#d4a85a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/>
+          </svg>
+        </div>
+        <div class="card-txt">
+          <div class="card-header-meta">
+            <span class="card-num">01</span>
+            <span class="card-badge">3x Faster Response</span>
+          </div>
+          <h4>40mm Beryllium Driver</h4>
+          <p>Ultra-rigid, featherlight diaphragm for transient response 3x faster than titanium.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="dbl-bezel reveal reveal-d2">
+      <div class="dbl-bezel-inner">
+        <div class="card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#d4a85a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 18V5l12-2v13M9 18a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm12-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+          </svg>
+        </div>
+        <div class="card-txt">
+          <div class="card-header-meta">
+            <span class="card-num">02</span>
+            <span class="card-badge">-42dB Hybrid ANC</span>
+          </div>
+          <h4>Active Noise Cancellation</h4>
+          <p>Dual-microphone feedforward + feedback hybrid. Silence, redefined.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="dbl-bezel reveal reveal-d3">
+      <div class="dbl-bezel-inner">
+        <div class="card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#d4a85a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+          </svg>
+        </div>
+        <div class="card-txt">
+          <div class="card-header-meta">
+            <span class="card-num">03</span>
+            <span class="card-badge">24-bit / 96kHz</span>
+          </div>
+          <h4>Lossless Bluetooth 5.4</h4>
+          <p>CD-quality audio wirelessly, at sub-millisecond latency over aptX Lossless.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ═══ SECTION 2 — PRODUCTS ══════════════════════════════════════ -->
+<section class="s-products" id="products">
+
+  <div class="s-products-header">
+    <div>
+      <div class="eyebrow-pill reveal">
+        <span class="dot"></span>
+        The Collection
+      </div>
+      <h2 class="reveal">Every Detail.<br>Every Genre.</h2>
+    </div>
+    <p class="reveal reveal-d2">Three headphones. One obsessive standard of quality. Find your perfect pair.</p>
+  </div>
+
+  <div class="bento" id="product-bento">
+
+    <!-- Large card A -->
+    <div class="prod-card bento-a reveal">
+      <div class="prod-card-inner">
+        <div class="prod-img-wrap">
+          <img src="assets/apex_pro.jpg" alt="SONIX Apex Pro headphones" loading="lazy" />
+          <div class="prod-img-overlay"></div>
+        </div>
+        <div class="prod-info">
+          <div class="prod-tag">Best Seller</div>
+          <div class="prod-name">Apex Pro</div>
+          <div class="prod-desc">Flagship open-back over-ear. Reference-grade listening for audiophiles and studio engineers.</div>
+          <div class="prod-footer">
+            <div class="prod-price">$549 <span>/ free shipping</span></div>
+            <a href="#shop" class="prod-btn" id="btn-apex-pro">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card B -->
+    <div class="prod-card bento-b reveal reveal-d2">
+      <div class="prod-card-inner">
+        <div class="prod-img-wrap">
+          <img src="assets/void_anc.jpg" alt="SONIX Void ANC headphones" loading="lazy" />
+          <div class="prod-img-overlay"></div>
+        </div>
+        <div class="prod-info">
+          <div class="prod-tag">Most Popular</div>
+          <div class="prod-name">Void ANC</div>
+          <div class="prod-desc">40hr battery. Hybrid noise cancellation. Commuter's companion.</div>
+          <div class="prod-footer">
+            <div class="prod-price">$349</div>
+            <a href="#shop" class="prod-btn" id="btn-void-anc">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card C, D, E -->
+    <div class="prod-card bento-c reveal">
+      <div class="prod-card-inner">
+        <div class="prod-img-wrap">
+          <img src="assets/flux_buds.jpg" alt="SONIX Flux earbuds" loading="lazy" />
+          <div class="prod-img-overlay"></div>
+        </div>
+        <div class="prod-info">
+          <div class="prod-tag">New</div>
+          <div class="prod-name">Flux Buds</div>
+          <div class="prod-desc">True wireless. 10mm dynamic driver.</div>
+          <div class="prod-footer">
+            <div class="prod-price">$229</div>
+            <a href="#shop" class="prod-btn" id="btn-flux">Buy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="prod-card bento-d reveal reveal-d2">
+      <div class="prod-card-inner">
+        <div class="prod-img-wrap">
+          <img src="assets/studio_m1.jpg" alt="SONIX Studio Monitor headphones" loading="lazy" />
+          <div class="prod-img-overlay"></div>
+        </div>
+        <div class="prod-info">
+          <div class="prod-tag">Studio</div>
+          <div class="prod-name">Studio M1</div>
+          <div class="prod-desc">Flat response. Closed-back. Professional grade.</div>
+          <div class="prod-footer">
+            <div class="prod-price">$449</div>
+            <a href="#shop" class="prod-btn" id="btn-studio">Buy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="prod-card bento-e reveal reveal-d3">
+      <div class="prod-card-inner" style="padding: clamp(22px,3vw,34px); display:flex; align-items:center; justify-content:center; flex-direction:column; text-align:center; min-height: 200px;">
+        <div style="font-size:clamp(1.4rem,3vw,2rem); font-weight:800; letter-spacing:-.02em; margin-bottom:10px;">See All</div>
+        <div style="font-size:.8rem; font-weight:300; color:var(--muted); margin-bottom:20px;">8 more models available</div>
+        <a href="#shop" class="btn-island" id="btn-all-products" style="font-size:.68rem;">
+          Browse All
+          <span class="icon-wrap" aria-hidden="true">
+            <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 7h10M8 3l4 4-4 4"/></svg>
+          </span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══ SECTION 3 — TECH SPECS ════════════════════════════════════ -->
+<section class="s-tech" id="tech">
+
+  <div class="s-tech-header">
+    <div class="eyebrow-pill reveal" style="margin: 0 auto 22px;">
+      <span class="dot"></span>
+      Engineering
+    </div>
+    <h2 class="reveal">Built different.<br>By design.</h2>
+    <p class="reveal reveal-d2">Every number below is measured, tested, and guaranteed. Not marketing copy.</p>
+  </div>
+
+  <!-- Marquee -->
+  <div class="marquee-wrap" aria-hidden="true">
+    <div class="marquee-track" id="marquee-track">
+      <span class="marquee-item">40hr Battery</span>
+      <span class="marquee-item">50mm Driver</span>
+      <span class="marquee-item">0.3ms Latency</span>
+      <span class="marquee-item">Beryllium Diaphragm</span>
+      <span class="marquee-item">Bluetooth 5.4</span>
+      <span class="marquee-item">aptX Lossless</span>
+      <span class="marquee-item">IP54 Rated</span>
+      <span class="marquee-item">Dual ANC Mics</span>
+      <span class="marquee-item">3D Audio Engine</span>
+      <span class="marquee-item">40hr Battery</span>
+      <span class="marquee-item">50mm Driver</span>
+      <span class="marquee-item">0.3ms Latency</span>
+      <span class="marquee-item">Beryllium Diaphragm</span>
+      <span class="marquee-item">Bluetooth 5.4</span>
+      <span class="marquee-item">aptX Lossless</span>
+      <span class="marquee-item">IP54 Rated</span>
+      <span class="marquee-item">Dual ANC Mics</span>
+      <span class="marquee-item">3D Audio Engine</span>
+    </div>
+  </div>
+
+  <div style="height: 64px;"></div>
+
+  <div class="spec-row">
+    <div class="spec-tile reveal">
+      <div class="spec-tile-inner">
+        <div class="spec-val">40<em>hr</em></div>
+        <div class="spec-key">Battery Life</div>
+        <div class="spec-desc">Active with ANC on</div>
+      </div>
+    </div>
+    <div class="spec-tile reveal reveal-d2">
+      <div class="spec-tile-inner">
+        <div class="spec-val">0.3<em>ms</em></div>
+        <div class="spec-key">Latency</div>
+        <div class="spec-desc">aptX Lossless mode</div>
+      </div>
+    </div>
+    <div class="spec-tile reveal reveal-d3">
+      <div class="spec-tile-inner">
+        <div class="spec-val">50<em>mm</em></div>
+        <div class="spec-key">Driver Size</div>
+        <div class="spec-desc">Beryllium composite</div>
+      </div>
+    </div>
+    <div class="spec-tile reveal reveal-d4">
+      <div class="spec-tile-inner">
+        <div class="spec-val">-40<em>dB</em></div>
+        <div class="spec-key">Noise Reduction</div>
+        <div class="spec-desc">Hybrid ANC measured</div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ═══ SECTION 4 — REVIEWS + CTA ════════════════════════════════ -->
+<section class="s-social" id="reviews">
+
+  <div class="s-social-header">
+    <div class="testi-header-row">
+      <div class="eyebrow-pill reveal">
+        <span class="dot"></span>
+        Real Listeners
+      </div>
+      <div class="testi-rating-badge reveal">
+        <span class="badge-stars" aria-hidden="true">★★★★★</span>
+        <span class="badge-score">4.98 / 5.0</span>
+        <span class="badge-count">2,480+ Reviews</span>
+      </div>
+    </div>
+    <h2 class="reveal">They heard it.<br>Now they can't go back.</h2>
+    <p class="reveal reveal-d2">From bedroom producers to touring musicians. From commuters to pure audiophiles.</p>
+  </div>
+
+  <div class="testi-grid">
+    <div class="testi-card reveal">
+      <div class="testi-card-inner">
+        <div class="testi-top">
+          <div class="stars" aria-label="5 out of 5 stars">
+            <svg class="star-svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="star-svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="star-svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="star-svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="star-svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <span class="testi-badge">
+            <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="2.5 6 4.8 8.5 9.5 3.5"/></svg>
+            Verified Buyer
+          </span>
+        </div>
+        <p class="testi-quote">I have used every flagship headphone on the market. The Apex Pro is the first that made me forget I was wearing headphones. The soundstage is forensic.</p>
+        <div class="testi-author">
+          <div class="author-avatar" aria-hidden="true">MR</div>
+          <div class="author-info">
+            <div class="author-name">Marco Rivas</div>
+            <div class="author-handle">Studio Engineer, Barcelona</div>
+          </div>
+          <div class="author-tag">Apex Pro</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testi-card reveal reveal-d2">
+      <div class="testi-card-inner">
+        <div class="testi-top">
+          <div class="stars" aria-label="5 out of 5 stars">
+            <svg class="star-svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="star-svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="star-svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="star-svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="star-svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <span class="testi-badge">
+            <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="2.5 6 4.8 8.5 9.5 3.5"/></svg>
+            Verified Buyer
+          </span>
+        </div>
+        <p class="testi-quote">The Void ANC kills my open-plan office noise completely. Forty hours on a single charge. I charge it once a week. That is not a headphone, that is a utility.</p>
+        <div class="testi-author">
+          <div class="author-avatar" aria-hidden="true">NP</div>
+          <div class="author-info">
+            <div class="author-name">Naomi Park</div>
+            <div class="author-handle">Product Designer, Seoul</div>
+          </div>
+          <div class="author-tag">Void ANC</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testi-card reveal reveal-d3">
+      <div class="testi-card-inner">
+        <div class="testi-top">
+          <div class="stars" aria-label="5 out of 5 stars">
+            <svg class="star-svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="star-svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="star-svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="star-svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="star-svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <span class="testi-badge">
+            <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="2.5 6 4.8 8.5 9.5 3.5"/></svg>
+            Verified Buyer
+          </span>
+        </div>
+        <p class="testi-quote">The build quality is the closest thing to jewelry I have worn on my head. Machined aluminum, memory foam ear cups, a headband that adjusts like a Swiss watch.</p>
+        <div class="testi-author">
+          <div class="author-avatar" aria-hidden="true">AK</div>
+          <div class="author-info">
+            <div class="author-name">Arjun Kapoor</div>
+            <div class="author-handle">Music Producer, Mumbai</div>
+          </div>
+          <div class="author-tag">Studio M1</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Banner -->
+  <div class="cta-banner reveal">
+    <div class="cta-banner-inner">
+      <div class="cta-copy">
+        <h3>Ready to hear<br>the difference?</h3>
+        <p>30-day free returns. Free worldwide shipping on orders over $200. 2-year warranty included.</p>
+      </div>
+      <div class="cta-actions">
+        <a href="#shop" class="btn-island" id="btn-cta-shop">
+          Shop Now
+          <span class="icon-wrap" aria-hidden="true">
+            <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 7h10M8 3l4 4-4 4"/></svg>
+          </span>
+        </a>
+        <a href="#about" class="btn-ghost" id="btn-cta-learn">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ═══ SECTION 5 — FAQ ══════════════════════════════════════════ -->
+<section class="s-faq" id="faq">
+
+  <div class="faq-layout">
+
+    <!-- Left sticky label col -->
+    <div class="faq-left">
+      <div class="eyebrow-pill reveal">
+        <span class="dot"></span>
+        Questions
+      </div>
+      <h2 class="reveal">Got a question?<br>We <em>love</em> those.</h2>
+      <p class="reveal reveal-d1">Everything you need to know before you hit Buy. If something is still unclear, our audio team replies within 2 hours.</p>
+      <div class="faq-contact-note reveal reveal-d2">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#d4a85a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+        </svg>
+        <span>Still have a question? <a href="mailto:hello@sonix.audio" id="faq-contact-link">Chat with our team</a> and get a response fast.</span>
+      </div>
+    </div>
+
+    <!-- Right accordion col -->
+    <div class="faq-list reveal" id="faq-list">
+
+      <div class="faq-item" id="faq-1">
+        <button class="faq-trigger" aria-expanded="false" aria-controls="faq-body-1" id="faq-btn-1">
+          <span class="faq-q">What makes Sonix headphones different from other premium brands?</span>
+          <span class="faq-icon" aria-hidden="true">
+            <svg viewBox="0 0 12 12" fill="none" stroke="#d4a85a" stroke-width="1.6" stroke-linecap="round">
+              <line x1="6" y1="1" x2="6" y2="11"/><line x1="1" y1="6" x2="11" y2="6"/>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-body" id="faq-body-1" role="region" aria-labelledby="faq-btn-1">
+          <div class="faq-body-inner">
+            <p class="faq-a">We engineer our own beryllium composite drivers instead of sourcing off-the-shelf components. Every Sonix headphone goes through 120 hours of acoustic burn-in and a 47-point quality check before it ships. You are not paying for a logo. You are paying for a decade of acoustic research packed into a pair of ear cups.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item" id="faq-2">
+        <button class="faq-trigger" aria-expanded="false" aria-controls="faq-body-2" id="faq-btn-2">
+          <span class="faq-q">How does the 30-day return policy work?</span>
+          <span class="faq-icon" aria-hidden="true">
+            <svg viewBox="0 0 12 12" fill="none" stroke="#d4a85a" stroke-width="1.6" stroke-linecap="round">
+              <line x1="6" y1="1" x2="6" y2="11"/><line x1="1" y1="6" x2="11" y2="6"/>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-body" id="faq-body-2" role="region" aria-labelledby="faq-btn-2">
+          <div class="faq-body-inner">
+            <p class="faq-a">Buy with complete confidence. If you are not satisfied within 30 days of delivery, email us and we will arrange a free collection from your door. No re-stocking fees, no questions, no friction. Refund hits your account within 3 business days of us receiving the unit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item" id="faq-3">
+        <button class="faq-trigger" aria-expanded="false" aria-controls="faq-body-3" id="faq-btn-3">
+          <span class="faq-q">Do the headphones work with all devices, or do I need specific apps?</span>
+          <span class="faq-icon" aria-hidden="true">
+            <svg viewBox="0 0 12 12" fill="none" stroke="#d4a85a" stroke-width="1.6" stroke-linecap="round">
+              <line x1="6" y1="1" x2="6" y2="11"/><line x1="1" y1="6" x2="11" y2="6"/>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-body" id="faq-body-3" role="region" aria-labelledby="faq-btn-3">
+          <div class="faq-body-inner">
+            <p class="faq-a">Every Sonix headphone works with any Bluetooth device out of the box, including iOS, Android, Windows, and macOS. The free Sonix app (iOS and Android) unlocks advanced EQ presets, ANC intensity control, and firmware updates, but it is never required for core functionality. We believe your hardware should work perfectly without an app.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item" id="faq-4">
+        <button class="faq-trigger" aria-expanded="false" aria-controls="faq-body-4" id="faq-btn-4">
+          <span class="faq-q">What is the warranty and what does it cover?</span>
+          <span class="faq-icon" aria-hidden="true">
+            <svg viewBox="0 0 12 12" fill="none" stroke="#d4a85a" stroke-width="1.6" stroke-linecap="round">
+              <line x1="6" y1="1" x2="6" y2="11"/><line x1="1" y1="6" x2="11" y2="6"/>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-body" id="faq-body-4" role="region" aria-labelledby="faq-btn-4">
+          <div class="faq-body-inner">
+            <p class="faq-a">2-year international warranty covers all manufacturing defects, driver failure, and electronic faults. Ear cushions and cables are covered for 1 year. Accidental damage (drops, liquid) is not covered by the standard warranty but can be added via our optional Sonix Shield plan at checkout for a small annual fee.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item" id="faq-5">
+        <button class="faq-trigger" aria-expanded="false" aria-controls="faq-body-5" id="faq-btn-5">
+          <span class="faq-q">How long does shipping take, and do you ship worldwide?</span>
+          <span class="faq-icon" aria-hidden="true">
+            <svg viewBox="0 0 12 12" fill="none" stroke="#d4a85a" stroke-width="1.6" stroke-linecap="round">
+              <line x1="6" y1="1" x2="6" y2="11"/><line x1="1" y1="6" x2="11" y2="6"/>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-body" id="faq-body-5" role="region" aria-labelledby="faq-btn-5">
+          <div class="faq-body-inner">
+            <p class="faq-a">Orders over $200 ship free worldwide. Standard delivery is 3 to 5 business days within the US and EU, and 5 to 10 days internationally. Express next-day shipping is available at checkout for most regions. Every order ships with full tracking from the moment it leaves our warehouse in Zurich.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item" id="faq-6">
+        <button class="faq-trigger" aria-expanded="false" aria-controls="faq-body-6" id="faq-btn-6">
+          <span class="faq-q">Can I use Sonix headphones for professional studio work?</span>
+          <span class="faq-icon" aria-hidden="true">
+            <svg viewBox="0 0 12 12" fill="none" stroke="#d4a85a" stroke-width="1.6" stroke-linecap="round">
+              <line x1="6" y1="1" x2="6" y2="11"/><line x1="1" y1="6" x2="11" y2="6"/>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-body" id="faq-body-6" role="region" aria-labelledby="faq-btn-6">
+          <div class="faq-body-inner">
+            <p class="faq-a">The Apex Pro (open-back) and Studio M1 (closed-back) are designed specifically for professional monitoring. Both include a detachable 6.35mm balanced cable, a hardshell carrying case, and a flat frequency response certified to within 1dB of the stated curve. Multiple Grammy-winning engineers use Sonix as their primary reference headphone.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- ═══ FOOTER ════════════════════════════════════════════════════ -->
+<footer class="site-footer" role="contentinfo" id="site-footer">
+
+  <!-- Top grid -->
+  <div class="footer-top">
+
+    <!-- Brand + newsletter col -->
+    <div class="footer-brand-col">
+      <a href="#" class="brand-logo" aria-label="Sonix home">
+        <div class="brand-logo-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#d4a85a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 18v-6a9 9 0 0 1 18 0v6"/>
+            <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3z"/>
+            <path d="M3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/>
+          </svg>
+        </div>
+        <span class="brand-wordmark">Sonix</span>
+      </a>
+      <p class="footer-tagline">Acoustic engineering taken to its logical extreme. Built for those who hear the difference.</p>
+
+      <div class="newsletter-label">Stay in the loop</div>
+      <form class="newsletter-form" id="footer-newsletter" onsubmit="return false;" aria-label="Newsletter signup">
+        <input
+          type="email"
+          class="newsletter-input"
+          placeholder="your@email.com"
+          id="newsletter-email"
+          aria-label="Email address"
+          autocomplete="email"
+        />
+        <button type="submit" class="newsletter-btn" id="newsletter-submit" aria-label="Subscribe">
+          <svg viewBox="0 0 14 14" fill="none" stroke="#07060a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M2 7h10M8 3l4 4-4 4"/>
+          </svg>
+        </button>
+      </form>
+
+      <!-- Social icons -->
+      <div class="social-row" aria-label="Social media links">
+        <a href="#" class="social-icon" id="social-instagram" aria-label="Instagram" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#d4a85a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5"/>
+            <circle cx="12" cy="12" r="5"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="#d4a85a" stroke="none"/>
+          </svg>
+        </a>
+        <a href="#" class="social-icon" id="social-twitter" aria-label="X / Twitter" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#d4a85a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4l16 16M4 20L20 4"/>
+          </svg>
+        </a>
+        <a href="#" class="social-icon" id="social-youtube" aria-label="YouTube" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#d4a85a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="5" width="20" height="14" rx="3"/>
+            <polygon points="10,8.5 10,15.5 16,12" fill="#d4a85a" stroke="none"/>
+          </svg>
+        </a>
+        <a href="#" class="social-icon" id="social-spotify" aria-label="Spotify" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#d4a85a" stroke-width="1.5" stroke-linecap="round">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M8 11.5c2.5-1 5.5-.8 7.5.5M8 14.5c2-.8 4.5-.6 6 .5M9 8.5c3-1 6.5-.8 9 1"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Products col -->
+    <div>
+      <div class="footer-col-title">Products</div>
+      <ul class="footer-col-links" role="list">
+        <li><a href="#" id="footer-apex-pro">Apex Pro <span class="badge">Popular</span></a></li>
+        <li><a href="#" id="footer-void-anc">Void ANC</a></li>
+        <li><a href="#" id="footer-flux">Flux Buds <span class="badge">New</span></a></li>
+        <li><a href="#" id="footer-studio">Studio M1</a></li>
+        <li><a href="#" id="footer-accessories">Accessories</a></li>
+        <li><a href="#" id="footer-refurb">Certified Refurb</a></li>
+      </ul>
+    </div>
+
+    <!-- Company col -->
+    <div>
+      <div class="footer-col-title">Company</div>
+      <ul class="footer-col-links" role="list">
+        <li><a href="#about" id="footer-about">About Sonix</a></li>
+        <li><a href="#" id="footer-story">Our Story</a></li>
+        <li><a href="#" id="footer-acoustic-lab">Acoustic Lab</a></li>
+        <li><a href="#" id="footer-careers">Careers</a></li>
+        <li><a href="#" id="footer-press">Press Kit</a></li>
+        <li><a href="#" id="footer-partners">Partners</a></li>
+      </ul>
+    </div>
+
+    <!-- Support col -->
+    <div>
+      <div class="footer-col-title">Support</div>
+      <ul class="footer-col-links" role="list">
+        <li><a href="#faq" id="footer-faq">FAQ</a></li>
+        <li><a href="#" id="footer-shipping">Shipping Info</a></li>
+        <li><a href="#" id="footer-returns">Returns</a></li>
+        <li><a href="#" id="footer-warranty">Warranty</a></li>
+        <li><a href="#" id="footer-contact">Contact Us</a></li>
+        <li><a href="#" id="footer-community">Community</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Bottom bar -->
+  <div class="footer-bottom">
+    <div class="footer-copy">&copy; 2026 Sonix Audio Ltd. All rights reserved. Engineered in Zurich.</div>
+    <nav class="footer-legal" aria-label="Legal links">
+      <a href="#" id="footer-privacy">Privacy Policy</a>
+      <a href="#" id="footer-terms">Terms of Use</a>
+      <a href="#" id="footer-cookies">Cookie Settings</a>
+    </nav>
+  </div>
+
+</footer>
+
+<!-- ═══ SCRIPTS ════════════════════════════════════════════════════ -->
+<script>
+  /* ── Nav scroll ── */
+  const nav = document.getElementById('site-nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 48);
+  }, { passive: true });
+
+  /* ── Spotlight cursor ── */
+  const spotlight = document.getElementById('hero-spotlight');
+  const hero      = document.getElementById('hero');
+  hero.addEventListener('mousemove', e => {
+    const r = hero.getBoundingClientRect();
+    spotlight.style.setProperty('--mx', ((e.clientX - r.left) / r.width  * 100).toFixed(1) + '%');
+    spotlight.style.setProperty('--my', ((e.clientY - r.top)  / r.height * 100).toFixed(1) + '%');
+  }, { passive: true });
+
+  /* ── Video autoplay ── */
+  const vid = document.getElementById('hero-video');
+  if (vid) vid.play().catch(() => {});
+
+  /* ── Audio viz bars ── */
+  const vizWrap = document.getElementById('hero-viz');
+  if (vizWrap) {
+    const config = [
+      [5,10,1.1,0],[6,14,0.9,0.08],[8,20,1.3,0.16],[10,26,1.0,0.05],
+      [12,30,0.8,0.22],[14,34,1.2,0.1],[16,36,0.95,0.3],[14,32,1.15,0.18],
+      [12,28,0.85,0.07],[10,24,1.05,0.25],[8,18,1.25,0.12],[6,14,0.75,0.04],
+      [5,12,1.1,0.2],[4,8,0.9,0.09],[5,12,1.0,0.15]
+    ];
+    config.forEach(([mn,mx,dur,del]) => {
+      const b = document.createElement('div');
+      b.className = 'viz-b';
+      b.style.cssText = `--vh1:${mn}px;--vh2:${mx}px;--vd:${dur}s;--vdl:${del}s;height:${mn}px`;
+      vizWrap.appendChild(b);
+    });
+  }
+
+  /* ── IntersectionObserver reveals ── */
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('in');
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  /* ── FAQ Accordion ── */
+  document.querySelectorAll('.faq-trigger').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item   = btn.closest('.faq-item');
+      const isOpen = item.classList.contains('open');
+
+      // Close all
+      document.querySelectorAll('.faq-item').forEach(i => {
+        i.classList.remove('open');
+        i.querySelector('.faq-trigger').setAttribute('aria-expanded', 'false');
+      });
+
+      // Open clicked (if it was closed)
+      if (!isOpen) {
+        item.classList.add('open');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
+  /* ── Newsletter form feedback ── */
+  const nlForm = document.getElementById('footer-newsletter');
+  const nlInput = document.getElementById('newsletter-email');
+  if (nlForm && nlInput) {
+    nlForm.addEventListener('submit', () => {
+      if (nlInput.value && nlInput.value.includes('@')) {
+        nlInput.value = '';
+        nlInput.placeholder = 'You are in. Welcome to Sonix.';
+        nlInput.style.color = '#d4a85a';
+      }
+    });
+  }
+</script>
+
+</body>
+</html>
